@@ -1,0 +1,368 @@
+html {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    min-width: 400px
+}
+
+#header_h {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    color: #293356;
+    max-width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 8px;
+}
+
+#header_p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #848EAD;
+    max-width: 326px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+#blue {
+    background: #F1F5FE;
+    border-radius: 0px 0px 0px 191.5px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
+    border-radius: 8px;
+    width: 327px;
+    height: 478px;
+    margin: auto;
+    margin-top: -180px;
+}
+
+#pageviews {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+    color: #848EAD;
+    margin-top: 34px;
+    padding-top: 34px;
+}
+
+.bill_style{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: right;
+    letter-spacing: -0.8px;
+    color: #293356;
+
+}
+
+#month {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #848EAD;
+    margin-left: 10px;
+}
+#month1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #848EAD;
+    margin-left: 10px;
+}
+
+#pay_month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#plans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 272px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.text_content {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #848EAD;
+    margin-left: 10px;
+}
+
+#discount {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #FF8D68;
+
+}
+
+#discount1 {
+    display: none;
+}
+
+#discountbg {
+    width: 41px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEEDE8;
+    border-radius: 9.5px;
+}
+
+#checkx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.check1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+
+}
+
+#divider {
+    width: 327px;
+    height: 1px;
+    background: #ECF0FB;
+    margin-top: 38px;
+}
+
+#viewers {
+    display: inline;
+}
+#pay_month2{
+    display: none;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 30px;
+    height: 12px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.toggle-switch:before,
+.toggle-switch:after {
+    content: "";
+}
+
+.toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle-checkbox:checked+.toggle-switch {
+    background: #7AEADF;
+}
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    left: 22px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+#start_trail {
+    background: transparent;
+    border-width: 0px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #BECDFF;
+    background: #293356;
+    border-radius: 20.5px;
+    width: 170px;
+    height: 41px;
+    cursor: pointer;
+
+}
+
+#button_start {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.slidecontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    margin-top: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 279px;
+    height: 8px;
+    background: linear-gradient(to right, #A4F3EB 0%, #A4F3EB 50%, #fff 50%, #fff 100%);
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 5;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: #10D8C4;
+    background-image: url(./interactive-pricing-component-main/images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #ff4603;
+    cursor: pointer;
+}
+
+@media (min-width:1440px) {
+    #content {
+        width: 540px;
+        height: 397px;
+    }
+
+    #desktoprow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    #checkx {
+        align-items: start;
+
+    }
+
+    #discount1 {
+        display: block;
+        margin-left: 5px;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        color: #FF8D68;
+    }
+
+    #discountbg {
+        width: 91px;
+    }
+
+    #plans {
+        max-width: 372px;
+    }
+
+    .slider {
+        width: 444px;
+    }
+
+    #desktopversion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #pay_month2 {
+        display: flex;
+        align-items: center;
+        margin-top: 54px;
+        margin-bottom: 30px;
+    }
+
+    #pageviews {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #848EAD;
+    }
+    #pay_month{
+        display: none;
+    }
+    #divider {
+        width: 540px
+    }
+}

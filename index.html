@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./interactive-pricing-component-main/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Interactive Pricing Component</title>
+</head>
+<body>
+    <main>
+        <div id="blue">
+            <h2 id="header_h">Simple, traffic-based pricing</h2>
+            <h6 id="header_p">Sign-up for our 30-day trial.<br>
+                No credit card required. </h6>
+        </div>
+        <div>
+            <div id="content">
+                <div id="desktopversion">
+                    <h4 id="pageviews">
+                        <p id="viewers">10</p>K PAGE VIEWS
+                    </h4>
+                    <div id="pay_month2">
+                        <h1 id="bill_amount" class="bill_style">$8.00</h1>
+                        <p id="month"> / Monthly</p>
+                    </div>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="5" value="3" class="slider" id="range">
+                </div>
+                <div id="pay_month">
+                    <h1 id="bill_amount2" class="bill_style">$8.00</h1>
+                    <p id="month1"> / Monthly</p>
+                </div>
+                <div id="plans">
+                    <p id="Monthly" class="text_content">Monthly Billing</p>
+                    <div id="switcher">
+                        <label class="toggle">
+                            <input id="sale" class="toggle-checkbox" type="checkbox">
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                    <p id="Yearly" class="text_content">Yearly Billing</p>
+                    <div id="discountbg">
+                        <p id="discount">-25%
+                        <p id="discount1"> discount</p>
+                        </p>
+                    </div>
+                </div>
+                <div id="divider">
+                </div>
+                <div id="desktoprow">
+                    <div id="checkx">
+                        <div class="check1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                                <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                            </svg>
+                            <p class="text_content">Unlimited websites</p>
+                        </div>
+                        <div class="check1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                                <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                            </svg>
+                            <p class="text_content">100% data ownership </p>
+                        </div>
+                        <div class="check1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8">
+                                <path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1" />
+                            </svg>
+                            <p class="text_content">Email reports</p>
+                        </div>
+                    </div>
+                    <div id="button_start">
+                        <button id="start_trail">Start my trial</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="./js.js"></script>
+</body>
+</html>
